@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1><em>Student Registration</em></h1>
+    <section>
+        <p>Please fill out the form below to register as a student.</p>
+        <form action="" method="GET">
+            <div>
+                <label for="name">Full Name:</label>
+                <input name="name" type="text" id="name" placeholder="Enter Your Name" required><br><br>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input name="email" type="email" id="email" placeholder="Enter Your Email" required><br><br>
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input name="dob" type="date" id="dob" required><br><br>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input name="phone" type="tel" id="phone" placeholder="Enter Your Number" required><br>
+            </div>
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="male">Male</label>
+                <input name="gender" type="radio"  id="male" value="male">
+                <label for="female">Female</label>
+                <input name="gender" type="radio"  id="female" value="female">
+                <label for="other">Other</label>
+                <input name="gender" type="radio"  id="other" value="other">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Course Interested</legend>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="course" id="html">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="course" id="css">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" name="course" id="javascript">
+                <label for="python">Python</label>
+                <input type="checkbox" name="course" id="python">
+            </fieldset>
+            <br>
+            <div>
+                <label for="comments">Comments:</label><br>
+                <textarea name="comments" id="comments" placeholder="Enter Your Comments..." rows="4" cols="50"></textarea><br><br>
+            </div>
+                <button type="submit">Submit</button>
+            <br>
+        </form>
+    </section>
+<br>
+    <section>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Date of birth</th>
+                    <th>Phone Number</th>
+                    <th>Gender</th>
+                    <th>Course Interested</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>S-154</td>
+                    <td>John Smith</td>
+                    <td>john@gmail.com</td>
+                    <td>01/08/2000</td>
+                    <td>95958 65485</td>
+                    <td>Male</td>
+                    <td>HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>S-155</td>
+                    <td>Anna Hath</td>
+                    <td>anna.h@gmail.com</td>
+                    <td>15/06/2002</td>
+                    <td>98265 22555</td>
+                    <td>Female</td>
+                    <td>CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>S-156</td>
+                    <td>Tom Cruise</td>
+                    <td>tom.c@gmail.com</td>
+                    <td>25/02/2002</td>
+                    <td>97475 23587</td>
+                    <td>Male</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>S-157</td>
+                    <td>Gal Gadot</td>
+                    <td>gadot.g@gmail.com</td>
+                    <td>29/07/2000</td>
+                    <td>98254 55487</td>
+                    <td>Female</td>
+                    <td>CSS, Python</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
